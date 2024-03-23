@@ -6,7 +6,9 @@ const UserSchema=new mongoose.Schema({
     email: String,
     password:String
 })
+//sheona-nabila
 
 const UserModel= mongoose.model("signup", UserSchema)
 
 module.exports=UserModel
+
